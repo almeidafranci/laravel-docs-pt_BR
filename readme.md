@@ -1,4 +1,4 @@
-# Laravel Documentation
+# Documentção Laravel (pt_BR)
 
 ## Contribution Guidelines
 
