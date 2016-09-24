@@ -26,33 +26,33 @@ Contudo, se você não estiver utilizando Homestead, você deverá ter certeza q
 <a name="installing-laravel"></a>
 ### Instalando Laravel
 
-Laravel utilizes [Composer](http://getcomposer.org) to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
+Laravel utiliza o [Composer](http://getcomposer.org) ara gerenciar suas dependências. Portanto, antes de usar o Laravel, certifique-se de ter o Composer instalado na sua máquina.
 
 #### Através do Instalador do Laravel
 
-First, download the Laravel installer using Composer:
+Inicialmente, baixe o instalador do Laravel utilizando o Composer:
 
     composer global require "laravel/installer"
 
-Make sure to place the `~/.composer/vendor/bin` directory (or the equivalent directory for your OS) in your $PATH so the `laravel` executable can be located by your system.
+Certifique-se de adicionar o diretório `~/.composer/vendor/bin` (ou o diretório equivalente para o seu sistema operacional) à sua variável $PATH de forma que o executável `laravel` possa ser localizado pelo seu sistema.
 
-Once installed, the `laravel new` command will create a fresh Laravel installation in the directory you specify. For instance, `laravel new blog` will create a directory named `blog` containing a fresh Laravel installation with all of Laravel's dependencies already installed:
+Uma vez instalado, o comando `laravel new` irá criar uma nova instalação do Laravel no diretório que você especificar. Por exemplo, `laravel new blog` irá criar um diretório chamado `blog` contendo uma nova instalação do Laravel com todas as suas dependências já instaladas:
 
     laravel new blog
 
 #### Através do Composer Create-Project
 
-Alternatively, you may also install Laravel by issuing the Composer `create-project` command in your terminal:
+Como alternativa, você também pode instalar o Laravel através do Composer, utilizando o comando `create-project` no seu terminal:
 
     composer create-project --prefer-dist laravel/laravel blog
 
 #### Servidor de Desenvolvimento Local
 
-If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the `serve` Artisan command. This command will start a development server at `http://localhost:8000`:
+Se você possui PHP instalado localmente e gostaria de utilizar o servidor de desenvolvimento incluído no PHP como servidor para sua aplicação, você pode utilizar o comando `serve` do Artisan. Esse comando irá iniciar um servidor de desenvolvimento em `http://localhost:8000`:
 
     php artisan serve
 
-Of course, more robust local development options are available via [Homestead](/docs/{{version}}/homestead) and [Valet](/docs/{{version}}/valet).
+Certamente, opções mais robustas de desenvolvimento local estão disponíveis através de [Homestead](/docs/{{version}}/homestead) e [Valet](/docs/{{version}}/valet).
 
 <a name="configuration"></a>
 ### Configuração
